@@ -1,0 +1,7 @@
+﻿QLabel QPushButton
+{
+background-color:gray;
+color:rgb(255,255,255);
+border-width:30px;       
+border-color:beige;  
+ }

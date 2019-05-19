@@ -1,0 +1,48 @@
+QWidget#centralWidget
+{
+background-color: qradialgradient(cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4, radius: 1.35, stop: 0 rgb(255,255,255), stop: 1 black);	
+}
+
+QLineEdit{
+
+padding: 6px 12px 6px 12px;
+border: 1px solid #333;
+color: #333;
+height: 30;
+width: 200;
+font-size: 20px;
+font-family: Century Gothic; 
+border-radius: 6px;
+}
+#continue:hover{
+	background-color: #000;
+	color: #fff;;
+}
+QLabel{
+
+font-size: 25px;
+color: #fff;
+font-family: Century Gothic;
+}
+QLabel#welcome
+{
+	color:rgb(13,165,162);
+	font-size:30px;
+}
+
+QPushButton
+{
+  min-height:60px;
+  border: 1px solid rgb(255,255,255);
+  color: rgb(255,255,255);
+  font-family: Century Gothic;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(16,0,0);
+  border-radius: 20px;	
+}
+
+QPushButton:hover
+{
+
+}
